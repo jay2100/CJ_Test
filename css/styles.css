@@ -619,7 +619,7 @@ a {
 
 /* Blocks */
 .block {
-    --padding--vertical: 6rem;
+    --padding--vertical: 5rem;
     padding: var(--padding--vertical) 2rem;
 }
 
@@ -742,7 +742,7 @@ a {
 
 @media screen and (min-width: 768px){
     .hero {
-        padding: 20rem;
+        padding-top: 20rem;
     }
 
     .hero__content {
@@ -912,4 +912,10 @@ a {
     .footer__heading {
         font-size: 1.5rem;
     }
+}
+
+/* Sign-up Callout */
+
+.callout-signup {
+  transform: translateY(5rem);
 }
